@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(pacote-projeto/fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #36C274, #1d693f);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.479);
+    
+} 
+
+header > h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+}
+
+h2 {
+    font: bold 1em Arial, monospace;
+    padding: 10px;
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 60px;
+    
+}
+
+nav > a:hover {
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.479);
+   
+}
+
+h3 {
+    background-image: linear-gradient(to right, #84E1AD, white 60%);
+}
+
+h4 {
+    font: bold 1.5em 'Times New Roman', Times, serif;
+    background-color:#36C274;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+footer {
+    background-color: #14492c;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subtitulo {
+    color: #14492c;
+    font-family: 'idroid', 'Courier New', Courier, monospace;
+    font-size: 2em;
+
+}
+
+#sub-principal {
+    font-size: 2.5em;
+}
+
+.paragrafo {
+    font: normal 20px 'Times New Roman', Times, serif;
+    text-indent: 30px;
+}
+
+.cor-verde {
+    color: #1d693f;
+}
+
+.imagens {
+    text-align: center;
+}
+
+.video {
+    position: relative;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+    background-color: #1d693f;
+    
+}
+
+#final {
+    
+    background-color: #84E1AD;
+    padding: 10px;
+    margin-top: -10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+    border-radius: 0px 0px 10px 10px;
+}
+
+div > ul {
+    font-weight: bold;
+    
+} 
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.cor-branco {
+    font-weight: bolder;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+
