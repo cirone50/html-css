@@ -10,6 +10,7 @@
         }
 
         table {
+            position: relative;
             width: 500px;
             border-collapse: collapse;
 
@@ -31,6 +32,21 @@
         thead, tfoot {
             background-color: rgba(0, 0, 0, 0.541);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgba(0, 0, 0, 0.541);
+        }
+
+        tbody tr:nth-child(odd) { /* 2n-1 */
+            background-color: brown;
+        }
+
+        tbody tr:nth-child(even) { /* 2n */
+            background-color: aquamarine;
+
         }
 
         .num {
