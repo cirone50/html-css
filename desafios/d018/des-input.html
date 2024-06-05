@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Formulário</title>
+    <style>
+        .curso {
+            padding: 20px;
+          
+        }
+    </style>
+</head>
+<body>
+    <h1> Desafio Formulário </h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="inome">Nome Completo:</label>
+            <input type="text" name="nome" id="inome" minlength="5" maxlength="40" size="40" required>
+
+        </p>
+        <p>
+            <label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail" autocomplete="email" size="35" required>
+        </p>
+        <p>
+            <label for="itel">Telefone:</label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^(\d{2}\)\d{5}-\d{4}$"  placeholder="(xx) xxxxx-xxxx" required>
+        </p>
+        <p>
+            <label for="inas">Data de Nascimento:</label>
+            <input type="date" name="nas" id="inas" required>
+        </p> 
+        <fieldset style="width: 100px;">
+            <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="isexmasc">
+                <label for="isexmasc">Masculino</label><br>
+                <input type="radio" name="sexo" id="isexfem">
+                <label for="isexfem">Feminino</label><br>
+                <input type="radio" name="sexo" id="isexoutro">
+                <label for="isexoutro">Outros</label>
+           
+        </fieldset>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof" required>
+            <datalist id="lstprof">
+                <option>Administrador</option>
+                <option>Desenvolvedor</option>
+                <option>Arquiteto</option>
+                <option>Psicologo</option>
+                <option>Vendedor</option>
+                <option>Professor</option>
+                <option>Contador</option>
+                <option>Medico</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" min="8" max="16" required>
+        </p>
+        <fieldset style="width: 820px;">
+            <legend>Cursos</legend>
+
+            <input type="checkbox" name="cur1" id="icur1">
+            <label for="icur1" class="curso">Vendas</label>
+
+            <input type="checkbox" name="cur2" id="icur2">
+            <label for="icur2" class="curso">Marketing Digital</label>
+
+            <input type="checkbox" name="cur3" id="icur3">
+            <label for="icur3" class="curso">Empreendimento</label>
+
+            <input type="checkbox" name="cur4" id="icur4">
+            <label for="icur4" class="curso">Programação</label>
+
+            <input type="checkbox" name="cur5" id="icur5">
+            <label for="icur5" class="curso">Primeiros Socorros</label>
+
+        </fieldset>
+
+        <p>
+            <h3> Deixe sua opinião:</h3>
+        </p>
+        <p>
+            <label for="imsg" class="curso"></label>
+            <textarea name="msg" id="imsg" cols="40" rows="10"></textarea>
+        </p>
+
+            <button type="submit">Enviar</button>
+            <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
