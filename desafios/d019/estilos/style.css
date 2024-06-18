@@ -51,6 +51,11 @@ p {
     border-radius: 12px;
 }
 
+.login:hover {
+    background-color: #5e68373b;
+    cursor: pointer;
+}
+
 p#enviar {
    margin-bottom: 0px;
 }

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px){
+    form {
+        display: inline-block;
+        width: 600px;
+    }
+
+   .login {
+        display: inline-block;
+        width: 550px;
+    } 
+
+
+
+
+}
