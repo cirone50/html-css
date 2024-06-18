@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+        <form method="post" action="cadastro.php">
+            <h1>Login</h1>
+            <p>
+                <label for="iemail"></label>
+                <input type="email" class="login" name="email" id="iemail" minlength="5" maxlength="25" placeholder="E-mail"  required>
+            </p>
+            <p >
+                <label for="isenha"></label>
+                <input type="password" class="login" name="senha" id="isenha" minlength="8" maxlength="12" placeholder="Senha" required>
+            </p>
+           
+                <p id="enviar"><input type="submit" value="Enviar" class="botao"></p>
+                <p><input type="submit" value="Esqueci a senha" class="botao"></p>
+          
+        </form>
+   
+</body>
+</html>

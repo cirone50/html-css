@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: #5E6837
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+form > h1 {
+    font-family: "DM Serif Display", serif;
+    font-variant: small-caps;
+    font-size: 3em;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+   
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.login {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-variant: small-caps;
+    padding: 10px;
+    width: 240px;
+    border-radius: 12px;
+}
+
+p#enviar {
+   margin-bottom: 0px;
+}
+
+.botao {
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 170px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #5E6837;
+    color: #f9ffe3;
+    text-shadow: 1px 1px 0px #202413af;
+    transition: .3s;
+}
